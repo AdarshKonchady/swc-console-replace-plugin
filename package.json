@@ -1,0 +1,13 @@
+{
+    "name": "pci-compliance",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": ["swc-plugin"],
+    "main": "target/wasm32-wasi/release/pci-compliance.wasm",
+    "scripts": {
+        "prepublishOnly": "cargo build --release"
+    },
+    "files": []
+}
