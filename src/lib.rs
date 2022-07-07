@@ -1,6 +1,6 @@
-use swc_plugin::{ast::*, plugin_transform, TransformPluginProgramMetadata};
+use swc_plugin::{ast::*, plugin_transform, TransformPluginProgramMetadata, syntax_pos::DUMMY_SP};
 
-pub struct TransformVisitor;
+pub struct ConsoleOutputReplacer;
 
 // impl VisitMut for TransformVisitor {
 //     // Implement necessary visit_mut_* methods for actual custom transform.
@@ -16,9 +16,10 @@ impl VisitMut for ConsoleOutputReplacer {
                     if ident.sym == *"console" {
                         call.args[0].expr = Box::new(Expr::Lit(Lit::Str(Str {
                             span: DUMMY_SP,
-                            has_escape: false,
-                            kind: StrKind::default(),
+                            // has_escape: false,
+                            // kind: StrKind::default(),
                             value: JsWord::from("changed_via_plugin"),
+                            raw: None
                         })));
                     }
                 }
@@ -48,5 +49,5 @@ impl VisitMut for ConsoleOutputReplacer {
 /// results back to host. Refer swc_plugin_macro how does it work internally.
 #[plugin_transform]
 pub fn process_transform(program: Program, _metadata: TransformPluginProgramMetadata) -> Program {
-    program.fold_with(&mut as_folder(TransformVisitor))
+    program.fold_with(&mut as_folder(ConsoleOutputReplacer))
 }
