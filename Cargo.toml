@@ -1,5 +1,5 @@
 [package]
-name = "pci-compliance"
+name = "console-replace"
 version = "0.1.0"
 edition = "2021"
 

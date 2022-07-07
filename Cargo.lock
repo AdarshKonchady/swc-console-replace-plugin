@@ -101,6 +101,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "console-replace"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "swc_common",
+ "swc_plugin",
+]
+
+[[package]]
 name = "darling"
 version = "0.13.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -421,15 +430,6 @@ dependencies = [
  "redox_syscall",
  "smallvec",
  "windows-sys",
-]
-
-[[package]]
-name = "pci-compliance"
-version = "0.1.0"
-dependencies = [
- "serde",
- "swc_common",
- "swc_plugin",
 ]
 
 [[package]]
