@@ -1,0 +1,11 @@
+/Users/Z001ZLM/Documents/Work/swc-console-replace-plugin/target/wasm32-wasi/release/deps/string_cache-8f858af73799da31.rmeta: /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/lib.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/atom.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/dynamic_set.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/static_sets.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/trivial_impls.rs
+
+/Users/Z001ZLM/Documents/Work/swc-console-replace-plugin/target/wasm32-wasi/release/deps/libstring_cache-8f858af73799da31.rlib: /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/lib.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/atom.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/dynamic_set.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/static_sets.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/trivial_impls.rs
+
+/Users/Z001ZLM/Documents/Work/swc-console-replace-plugin/target/wasm32-wasi/release/deps/string_cache-8f858af73799da31.d: /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/lib.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/atom.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/dynamic_set.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/static_sets.rs /Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/trivial_impls.rs
+
+/Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/lib.rs:
+/Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/atom.rs:
+/Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/dynamic_set.rs:
+/Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/static_sets.rs:
+/Users/Z001ZLM/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.8.4/src/trivial_impls.rs:

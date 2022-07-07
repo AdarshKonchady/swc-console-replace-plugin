@@ -1,0 +1,1 @@
+{"rustc":3153901651144956703,"features":"[\"default\"]","target":5089552233525307012,"profile":6269190295429226618,"path":12167139593418954728,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"wasm32-wasi/release/.fingerprint/seahash-78c8fc1afa744900/dep-lib-seahash"}}],"rustflags":[],"metadata":2008185478357472228,"config":2202906307356721367,"compile_kind":16489420942494921214}
